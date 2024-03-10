@@ -1,0 +1,34 @@
+.footer {
+    width: 100%;
+}
+
+.footer label, .footer p, .footer span, .footer div, .footer input{
+    font-family: 'Playfair Display', serif;
+}
+
+.form {
+    width: 90%;
+    border: 4px double #925b48;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+
+.form label{
+    margin: 0;
+    height: 14px !important;
+}
+
+.form button{
+    margin: 0;
+    background-color: #925b48 !important;
+    height: 40px;
+}
+
+.form button div {
+    background-color: #925b48 !important;
+}
+
+.form button span {
+    color: #fff;
+}

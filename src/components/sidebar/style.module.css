@@ -1,0 +1,11 @@
+.sidebar button > div{
+    background-color: #Df4758 !important;
+}
+
+.sidebar button{
+    background-color: #Df4758;
+}
+
+.sidebar button > div:hover{
+    background-color: #d7727e !important;
+}
