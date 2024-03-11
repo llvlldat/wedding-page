@@ -2,6 +2,8 @@ import React from 'react'
 import style from './style.module.css'
 import { Carousel } from 'antd'
 import DSC03513 from '../../assets/images/DSC03513.jpg'
+import DSC03103 from '../../assets/images/DSC03103.jpg'
+import DSC03771 from '../../assets/images/DSC03771.jpg'
 import Countdown from 'react-countdown'
 
 export const Header = () => {
@@ -25,13 +27,10 @@ export const Header = () => {
                         <img src={DSC03513} alt="" />
                     </div>
                     <div>
-                        <img src={DSC03513} alt="" />
+                        <img src={DSC03103} alt="" />
                     </div>
                     <div>
-                        <img src={DSC03513} alt="" />
-                    </div>
-                    <div>
-                        <img src={DSC03513} alt="" />
+                        <img src={DSC03771} alt="" />
                     </div>
                 </Carousel>
                 <div className={style.bubbleHeader}>

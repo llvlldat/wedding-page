@@ -1,15 +1,15 @@
 import { Space } from 'antd'
 import Card from 'antd/es/card/Card'
 import Meta from 'antd/es/card/Meta'
-import bride from '../../assets/images/DSC03059.jpg'
-import groom from '../../assets/images/DSC03191.jpg'
 import style from './style.module.css'
 import { Title } from './title'
+import { ReactComponent as LocationIcon } from '../../assets/icons/location-dot-solid.svg'
+import { ReactComponent as RegisterIcon } from '../../assets/icons/registered-regular.svg'
 
 function Content() {
     return (
         <div className={style.content}>
-            <div>
+            {/* <div>
                 <Title header="Cặp Đôi" content="Tình yêu là điều kiện trong đó hạnh phúc của người khác là điều cần thiết cho chính bạn." />
                 <div>
                     <img src={groom} alt="" style={{ width: '100vw', height: '100vw', objectFit: 'cover', objectPosition: 'top' }} />
@@ -35,7 +35,7 @@ function Content() {
                         <p>...</p>
                     </section>
                 </div>
-            </div>
+            </div> */}
             <div>
                 <Title
                     header="Album Hình Cưới"
@@ -51,6 +51,7 @@ function Content() {
                         cover={
                             <img alt="example" src="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/45dfd859dd184042e2a6adaa320ac64b.jpeg" />
                         }
+                        actions={[<LocationIcon key="location" />, <RegisterIcon key="register" />]}
                     >
                         <Meta title="LỄ CƯỚI NHÀ NỮ" />
                         <p>5:30 PM, 23/03/2024</p>
