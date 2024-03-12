@@ -1,13 +1,8 @@
-import React from 'react'
-import style from './style.module.css'
-import { Carousel } from 'antd'
-import DSC03513 from '../../assets/images/DSC03513.jpg'
-import DSC03103 from '../../assets/images/DSC03103.jpg'
-import DSC03771 from '../../assets/images/DSC03771.jpg'
 import Countdown from 'react-countdown'
+import DSC03513 from '../../assets/images/DSC03513.jpg'
+import style from './style.module.css'
 
 export const Header = () => {
-    const onChange = () => {}
     const weddingDate = new Date('2024-03-24T08:30:00.000')
 
     return (
@@ -22,17 +17,11 @@ export const Header = () => {
                 </a>
             </div>
             <div className={style.mainHeader}>
-                <Carousel afterChange={onChange} className={style.carousel} autoplay>
+                <div className={style.carousel}>
                     <div>
                         <img src={DSC03513} alt="" />
                     </div>
-                    <div>
-                        <img src={DSC03103} alt="" />
-                    </div>
-                    <div>
-                        <img src={DSC03771} alt="" />
-                    </div>
-                </Carousel>
+                </div>
                 <div className={style.bubbleHeader}>
                     <div className={style.carouselLayer}>
                         <div>

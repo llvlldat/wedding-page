@@ -47,6 +47,7 @@ export const Footer = () => {
                     Gửi lời chúc
                 </Button>
             </Form>
+            <footer>Thank You!</footer>
         </div>
     )
 }

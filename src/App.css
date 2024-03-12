@@ -26,3 +26,46 @@ h1 a {
     font-size: 26px;
     text-decoration: none;
 }
+
+.ant-card-actions li{
+    border: 1px solid rgb(240, 240, 240);
+    margin: 0 !important;
+    padding: 12px 0 !important;
+}
+
+.ant-card-actions li:first-of-type {
+    border-radius: 0 0 0 8px;
+}
+
+.ant-card-actions li:nth-child(2) {
+    border-radius: 0 0 8px 0;
+}
+
+.ant-card-body {
+    padding: 12px 24px !important;
+}
+
+.ant-card-body div{
+    font-family: 'Playfair Display', serif !important;
+}
+
+.ant-card-body p{
+    margin-bottom: 0 !important;
+    font-weight: 500;
+}
+
+footer {
+    height: 70px;
+    background-color: #925b48;
+    margin-top:30px;
+    color: #fff;
+    font-family: 'Playfair Display', serif !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .ant-card-actions {
+    padding: 12px 0 !important;
+} */
+
