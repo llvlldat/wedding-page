@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "wedding-wishes-2c893"
-  }
+    "default": "dathue-wedding",
+    "dathue-wedding": "dathue-wedding"
+  },
+  "targets": {},
+  "etags": {}
 }
